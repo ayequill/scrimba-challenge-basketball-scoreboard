@@ -34,3 +34,9 @@ function guestAdd3 () {
     guestScoreBoardText.textContent = guestScore
 }
 
+function reset (){
+    homeScoreBoardText.textContent = 0
+    guestScoreBoardText.textContent = 0
+
+}
+

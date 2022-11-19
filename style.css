@@ -3,7 +3,7 @@
 body{
     background: #E5E5E5;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 .container{
 
@@ -16,6 +16,7 @@ body{
     justify-content: center;
     justify-content: space-around;
     border-radius: 20px;
+    transform: translateY(50%);
 }
 
 .team{
@@ -40,9 +41,7 @@ body{
     font-family: 'Cursed Timer ULiL', sans-serif;
     display: block;
     position: relative;
-    bottom: 40px;
-    
-    
+    bottom: 40px;  
 }
 .score{
     display: flex;
@@ -64,6 +63,22 @@ body{
 #btn-text{
     width: 45px;
     height: 45px;  
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                     
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    /* text-align: center; */
+    background: #1B244A;
+    
+    color: #9AABD8;
+    font-style: normal;
+}
+#resetButton{
     border: 2px solid #9AABD8;
     border-radius: 5px;
     font-family: 'Cursed Timer ULiL', sans-serif;
